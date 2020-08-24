@@ -1,0 +1,19 @@
+/*
+ Theme Name:   Mooge.shop theme
+ Theme URI:    mooge.shop
+ Description:  Mooge shop theme
+ Author:       ooog
+ Author URI:   oog-design.com
+ Template:     storefront
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyfifteenchild
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
