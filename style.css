@@ -13,7 +13,21 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
-
 body {
     font-family: 'Montserrat', sans-serif;
+}
+
+.woocommerce-product-search input {
+    border: solid 1px #333;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+form.woocommerce-product-search::before {
+    content: '';
+    background-image: url(./images/svg/loop.svg);
+    width: 20px;
+    height: 20px;
+    top: 1em;
+    left: 0.9em;
 }
